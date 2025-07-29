@@ -7,8 +7,8 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "moyusisi",
+    url: "https://www.moyusisi.com",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -17,15 +17,25 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  // 关闭编辑此页链接
+  editLink: false,
+
   // 导航栏
   navbar,
 
   // 侧边栏
   sidebar,
 
-  // 页脚
-  footer: "默认页脚",
-  displayFooter: true,
+  // 是否默认显示页脚。默认值: false
+  displayFooter: false,
+  // 页脚，可输入 HTMLString。
+  footer: "",
+  // 默认的版权信息，设置为 false 来默认禁用它。类型: string | false。默认值: "Copyright © <作者>"
+  copyright: "Copyright © 2025 moyuAdmin",
+
+  // 上一页/下一页
+  prevLink: false,
+  nextLink: false,
 
   // 加密配置
   encrypt: {
@@ -43,10 +53,18 @@ export default hopeTheme({
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
-  // hotReload: true,
+  hotReload: true,
 
   // 此处开启了很多功能用于演示，你应仅保留用到的功能。
   markdown: {
+    // 语法高亮 或者拥有 type 字段的对象
+    highlighter: {
+      type: "shiki", // or "prismjs"
+      // shiki 或 prismjs 选项
+      // 要使用的主题(参考：https://shiki.tmrs.site/guide/)
+      theme: "github-dark",
+      // ...
+    },
     align: true,
     attrs: true,
     codeTabs: true,
@@ -119,14 +137,15 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
+
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     components: {
       components: ["Badge", "VPCard"],
