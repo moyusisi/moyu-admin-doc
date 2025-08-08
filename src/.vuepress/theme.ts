@@ -26,6 +26,10 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
+  // 上次编辑时间。默认值: true
+  lastUpdated: true,
+  // 贡献者。默认值: true
+  contributors: false,
   // 是否默认显示页脚。默认值: false
   displayFooter: false,
   // 页脚，可输入 HTMLString。

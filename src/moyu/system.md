@@ -17,7 +17,7 @@ order: 1
 组织机构的节点通常有公司、部门、虚拟节点等不同类型，为了构建组织关系树，除了名称name、编码code之外，还需要用于标识父节点的字段parent_code，和从根节点到本节点的访问路径。
 
 ```SQL title="组织机构模型示例"
-create table sys_resource
+create table sys_org
 (
     `id`          BIGINT(20)    NOT NULL AUTO_INCREMENT COMMENT '主键id',
     `name`        VARCHAR(64)   NULL DEFAULT NULL COMMENT '名称',
