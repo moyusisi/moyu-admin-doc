@@ -323,7 +323,7 @@ layout: SlidePage
 > - 安全运维（SE）：需要同时了解安全和运维的知识，对线上网络、系统和应用安全负责，大多是独立团队，但是即使独立，跟运维团队都是紧密协作的。
 
 既要懂前端，又要懂后端，多岗位于一身
-<!-- .element: class="fade-in" -->
+<!-- .element: class="fragment fade-in" -->
 
 --
 
