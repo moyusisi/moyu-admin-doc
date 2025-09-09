@@ -66,9 +66,9 @@ export default hopeTheme({
       type: "shiki", // or "prismjs"
       // shiki 或 prismjs 选项
       // 要使用的主题(参考：https://shiki.tmrs.site/guide/)
-      theme: "github-dark",
+      // theme: "github-dark",
       // 行折叠
-      collapsedLines: true,
+      // collapsedLines: true,
       // ...
     },
     // 启用预览支持

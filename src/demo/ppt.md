@@ -1,6 +1,6 @@
 ---
 title: 幻灯片演示
-layout: SlidePage
+layout: Slides
 ---
 
 @slidestart
