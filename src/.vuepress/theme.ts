@@ -127,7 +127,7 @@ export default hopeTheme({
     // echarts: true,
 
     // 在启用之前安装 flowchart.ts
-    // flowchart: true,
+    flowchart: true,
 
     // 在启用之前安装 mermaid
     // mermaid: true,
