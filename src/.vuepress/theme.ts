@@ -69,6 +69,12 @@ export default hopeTheme({
       // theme: "github-dark",
       // 行折叠
       // collapsedLines: true,
+      // 聚焦标记
+      notationFocus: true,
+      // 差异标记
+      notationDiff: true,
+      // 高亮标记
+      notationHighlight: true,
       // ...
     },
     // 启用预览支持
