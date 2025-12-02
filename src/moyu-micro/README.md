@@ -5,12 +5,12 @@ order: 0
 
 <center>
     <h3>moyu-micro-admin</h3>
-    <p>基于moyu-admin采用qiankun微前端架构设计的管理系统</p>
+    <p>基于moyu-antdv-admin采用qiankun微前端架构设计的管理系统</p>
 </center>
 
 ## 项目简介
 
-[moyu-micro-admin]()是在[moyu-admin]()的基础上，采用[qiankun](https://qiankun.umijs.org/zh/guide)微前端架构设计，支持将多个独立的前端应用有机结合成一个整体的系统。特别适用于多团队、多技术栈的大型项目。
+[moyu-micro-admin]()是在[moyu-antdv-admin]()的基础上，采用[qiankun](https://qiankun.umijs.org/zh/guide)微前端架构设计，支持将多个独立的前端应用有机结合成一个整体的系统。特别适用于多团队、多技术栈的大型项目。
 
 项目由主应用和多个子应用共同组成，每个微应用都是一个独立的项目，可以独立开发、独立部署、独立访问，并可作为一个有机整体呈现。
 
