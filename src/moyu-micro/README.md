@@ -31,7 +31,8 @@ order: 0
 项目目录结构如下：(主应用比子应用多一个微前端配置文件`microApp.ts`)
 
 ```
-├── mainApp
+├── moyu-micro-admin
+│   │── mainApp
 │   │   ├── public          # 静态资源
 │   │   ├── src
 │   │   │   ├── api         # API 请求相关
@@ -46,8 +47,8 @@ order: 0
 │   │   ├── package.json    # 项目配置文件
 │   │   ├── vite.config.js  # Vite 配置文件
 │   │   └── ...
-│
-├── subApp
+│   │
+│   │── subApp
 │   │   ├── public          # 静态资源
 │   │   ├── src
 │   │   │   ├── api         # API 请求相关
