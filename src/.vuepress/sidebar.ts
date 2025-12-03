@@ -2,6 +2,8 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/moyu/": "structure",
+  "/moyu-boot/": "structure",
+  "/moyu-admin/": "structure",
   "/moyu-micro/": "structure",
 
   "/": [
