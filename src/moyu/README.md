@@ -1,5 +1,5 @@
 ---
-title: 项目介绍
+title: 简介
 order: 0
 ---
 
