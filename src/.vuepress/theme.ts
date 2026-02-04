@@ -27,15 +27,15 @@ export default hopeTheme({
   sidebar,
 
   // 上次编辑时间。默认值: true
-  lastUpdated: true,
+  lastUpdated: false,
   // 贡献者。默认值: true
   contributors: false,
   // 是否默认显示页脚。默认值: false
-  displayFooter: false,
+  displayFooter: true,
   // 页脚，可输入 HTMLString。
   footer: "",
   // 默认的版权信息，设置为 false 来默认禁用它。类型: string | false。默认值: "Copyright © <作者>"
-  copyright: "Copyright © 2025 moyuAdmin",
+  copyright: "Copyright © 2026 moyuAdmin",
 
   // 上一页/下一页
   prevLink: false,
