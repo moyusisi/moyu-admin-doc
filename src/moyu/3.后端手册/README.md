@@ -27,7 +27,7 @@ dir:
 
 ## 基本对象
 
-通过`Result`、`PageParam`、`PageData`定义了数据交互的基本相应格式
+通过`Result`、`PageData`、`PageParam`定义了数据交互的基本相应格式
 
 ::: code-tabs
 
@@ -40,14 +40,6 @@ dir:
 }
 ```
 
-@tab 分页请求
-```js
-{
-    "pageNum": 1,
-    "pageSize": 10
-}
-```
-
 @tab 分页响应
 ```js
 {
@@ -57,6 +49,14 @@ dir:
         "total": 20,
         "records": []
     },
+}
+```
+
+@tab 分页请求
+```js
+{
+    "pageNum": 1,
+    "pageSize": 10
 }
 ```
 :::
