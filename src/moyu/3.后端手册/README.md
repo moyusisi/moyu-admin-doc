@@ -8,11 +8,23 @@ dir:
 ---
 
 ## 简介
+`moyu-boot` 是 `moyu-antdv-admin` 的 Java 后端实现，基于 Spring Boot 2.7 开发框架，采用 RBAC 权限模型，集成 Redis / MyBatis-Plus 的企业级前后端分离管理系统。
 
-* 系统基于`JDK 8`构建
-* 系统框架使用[`Spring Boot 2.7`](https://spring.io/projects/spring-boot)+[`Mybatis-Plus 3`](https://baomidou.com)
-* 系统同时集成了[`Spring Security`](https://spring.io/projects/spring-security)和[`SaToken`](https://sa-token.cc)。
-* 部分插件依赖redis实现
+## 技术栈
+
+| 分类     | 技术选型           | 说明                 |
+| -------- | ------------------ | -------------------- |
+| 运行时   | JDK 8              | 推荐使用 LTS 版本    |
+| 构建工具 | maven / mvnw       | pom.xml              |
+| 开发框架 | Spring Boot 2.7.18 |                      |
+| 权限认证 | Sa-Token           |                      |
+| 数据访问 | MyBatis-Plus       | 版本以 pom.xml 为准  |
+| 数据库   | MySQL 5.7 ~ 8.x    | 后续会支持其他数据库 |
+| 缓存     | Redis 7.x          |                      |
+
+## 必需服务
+* MySQL
+* Redis
 
 ## 响应码
 本系统的响应码严格按照[阿里巴巴《Java 开发手册》嵩山版](https://developer.aliyun.com/topic/java20)中的**错误码列表**设计。

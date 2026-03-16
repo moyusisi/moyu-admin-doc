@@ -5,12 +5,12 @@ order: 0
 
 <div align="center">
     <h3>moyu-admin</h3>
-    <p>基于SpringBoot、SpringSecurity、MybatisPlus的权限后台管理系统</p>
+    <p>基于JDK8、Vue3的前后端分离管理系统</p>
 </div>
 
 ## 项目简介
 
-[moyu-admin](https://www.baidu.com)基于 JDK 8、Spring Boot 2.7、Spring Security 6、JWT、Redis、Mybatis-Plus、Vue3、Ant-Design-Vue 构建的前后端分离的权限管理系统。
+[moyu-admin](https://www.baidu.com)基于 JDK 8、Spring Boot 2.7、Spring Security 6、JWT、Redis、Mybatis-Plus、Vue3、Ant-Design-Vue、Vite 构建的前后端分离的管理系统。
 
 ## 项目特色
 
