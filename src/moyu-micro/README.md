@@ -5,7 +5,7 @@ order: 0
 
 <center>
     <h3>moyu-micro-admin</h3>
-    <p>基于moyu-antdv-admin采用qiankun微前端架构设计的管理系统</p>
+    <p>基于moyu-antdv-admin采用微前端架构设计的管理系统</p>
 </center>
 
 ## 项目简介
