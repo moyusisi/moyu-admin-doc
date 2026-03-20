@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://www.moyusisi.com",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 

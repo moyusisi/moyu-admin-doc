@@ -2,9 +2,9 @@
 home: true
 icon: house
 title: 首页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /logo.png
 heroText: moyuAdmin
-tagline: 专注构建简单、易用、高效的开发应用解决方案
+tagline: 大型企业的后台管理系统
 actions:
   - text: 使用指南
     link: ./demo/

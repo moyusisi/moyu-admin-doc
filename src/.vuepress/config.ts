@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "moyuAdmin",
+  description: "大型企业后台管理系统开发文档",
 
   theme,
 
