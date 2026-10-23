@@ -57,7 +57,7 @@ flowchart LR
 ### 按钮权限
 
 按钮权限控制用户可做什么操作，除了页面上是否显示、是否可点击之外，通过权限标识与接口绑定，决定了是否有接口的访问权限。
-用户登录后通过`/userInfo`接口，从[用户信息缓存](http://localhost:5173/moyu-boot/auth-login.html#%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E7%BC%93%E5%AD%98)中获取权限信息并保存在本地的用户信息`USER_INFO`中，包含用户的权限相关字段`roles`和`perms`
+用户登录后通过`/userInfo`接口，从[用户信息缓存](/moyu-boot/auth-login.html#%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E7%BC%93%E5%AD%98)中获取权限信息并保存在本地的用户信息`USER_INFO`中，包含用户的权限相关字段`roles`和`perms`
 
 **使用方式：**
 前端页面中若要控制按钮是否显示、是否可点等权限可使用`@/utils/permission`中的函数`hasPerm`、`hasAnyPerm`、`hasRole`等
