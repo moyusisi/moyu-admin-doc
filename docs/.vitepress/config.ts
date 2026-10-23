@@ -5,7 +5,11 @@ import { withMermaid } from 'vitepress-mermaid-viewer'
 export default withMermaid(
   defineConfig({
     title: "moyuAdmin",
-    description: "A VitePress Site",
+    description: "moyuAdmin文档",
+    // 部署到github页面，需要设置为 '/<repository>/'
+    base: '/moyu-admin-doc/',
+    // 构建输出位置
+    outDir: '../public',
 
     // 主题相关配置
     themeConfig: {
