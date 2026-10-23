@@ -5,12 +5,12 @@ order: 0
 
 <center>
     <h3>moyu-admin</h3>
-    <p>后端基于moyu-boot，前端基于moyu-antdv-admin，将前后端一起打包部署的单体架构系统</p>
+    <p>将后端项目moyu-boot和前端项目moyu-antdv-admin一起打包部署的单体架构系统</p>
 </center>
 
 ## 项目简介
 
-`moyu-admin`是将后端[moyu-boot]()和前端[moyu-antdv-admin]()的基础上，通过打包插件将前后端一起打包部署的**前后端一体**系统，即**前后端不分离**的系统，部署简单，适用于快速部署服务的场景。
+`moyu-admin`是在后端[moyu-boot]()和前端[moyu-antdv-admin]()的基础上，通过打包插件将前后端一起打包部署的**前后端一体**系统，即**前后端不分离**的系统，部署简单，适用于快速部署服务的场景。
 
 ## 目录结构
 项目由后端代码和前端代码组成，编译打包时通过maven插件将前后端代码一起打包成可执行的jar包。

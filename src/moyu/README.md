@@ -4,19 +4,21 @@ order: 0
 ---
 
 <div align="center">
-    <h3>moyu-admin</h3>
+    <h3>moyuAdmin</h3>
     <p>基于JDK8、Vue3的前后端分离管理系统</p>
 </div>
 
 ## 项目简介
 
-[moyu-admin](https://www.baidu.com)基于 JDK 8、Spring Boot 2.7、Spring Security 6、JWT、Redis、Mybatis-Plus、Vue3、Ant-Design-Vue、Vite 构建的前后端分离的管理系统。
+**moyuAdmin**是一个前后端分离的管理系统，分别由前端项目和一个后端项目组成。
+* 前端项目 [moyu-antdv-admin]() 基于`Vue3`、`Ant-Design-Vue`、`Vite` 等技术构建。
+* 后端项目 [moyu-boot]() 基于 `JDK8`、`Spring Boot 2.7`、`Redis`、`Mybatis-Plus`等技术构建。
 
 ## 项目特色
 
-- **开发框架**: 使用 Spring Boot 2.7 和 Vue 3，以及 Ant-Design-Vue 等主流技术栈，实时更新。
+- **开发框架**: 使用 Spring Boot 2.7 和 Vue 3，以及 Ant-Design-Vue 等主流技术栈。
 
-- **安全认证**: 结合 Spring Security 和 JWT 提供安全、无状态、分布式的身份验证和授权机制。
+- **安全认证**: 集成 Spring Security 和 Sa-Token 提供安全可靠、分布式的身份验证和授权机制。
 
 - **权限管理**: 基于 RBAC 模型，实现细粒度的权限控制，涵盖接口方法和按钮级别。精准控制功能权限和数据权限。
 
