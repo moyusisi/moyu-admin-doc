@@ -8,8 +8,8 @@ dist/
 yarn.lock
 
 # vuepress
-.temp/
-.cache/
+temp/
+cache/
 
 # idea ignore
 .idea/
